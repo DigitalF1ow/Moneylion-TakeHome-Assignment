@@ -43,7 +43,12 @@ function countingFunc()
         'name': 'Ethan',
         'color': 'green'
         }
-        ];
+    ];
+    
+    /*
+    numCount = total number of colors counted
+    personColor = person who has the color
+    */
     let countColor = [
         {
         'colorName': 'red',
@@ -63,8 +68,7 @@ function countingFunc()
     ];
 
     //Starts at 0 for both variables
-    var count;
-    var innerCount;
+    var count, innerCount;
 
     for (count = 0; count < countColor.length; count++)
     {

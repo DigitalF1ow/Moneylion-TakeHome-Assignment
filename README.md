@@ -11,4 +11,4 @@ Both of the Questions are in the countFunction.js and fibonacci.js respectively.
 Used NodeJS to test the Javascript file.
 
 Time spent so far, 
-'24 hours'
+`24 hours`

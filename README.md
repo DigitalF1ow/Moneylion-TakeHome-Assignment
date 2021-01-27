@@ -10,4 +10,5 @@ Question 2 is about the Fibonacci Sequence.
 Both of the Questions are in the countFunction.js and fibonacci.js respectively.\
 Used NodeJS to test the Javascript file. 
 
-There is also an HTML folder in case you wanted the interface for testing it.
+There is also an HTML folder in case you wanted the HTML interface for testing it.\
+Thank you.

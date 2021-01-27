@@ -46,7 +46,7 @@ function countingFunc()
     ];
     
     /*
-    numCount = total number of colors counted
+    numCount = total number of each color counted
     personColor = person who has the color
     */
     let countColor = [
@@ -70,6 +70,7 @@ function countingFunc()
     //Starts at 0 for both variables
     var count, innerCount;
 
+    //Nested loop, if the person's color is the same as colorName, increment the number
     for (count = 0; count < countColor.length; count++)
     {
         for(innerCount = 0; innerCount < peopleColor.length; innerCount++)
@@ -86,5 +87,4 @@ function countingFunc()
         console.log(countColor[count]);
     }
 }
-
 countingFunc();

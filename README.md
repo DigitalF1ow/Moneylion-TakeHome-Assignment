@@ -10,7 +10,5 @@ Question 2 is about the Fibonacci Sequence.
 Both of the Questions are in the countFunction.js and fibonacci.js respectively.
 Used NodeJS to test the Javascript file.
 
-Website compatibility is tested as well. Both worked well. The html files are in the Backup folder.
-
 Time spent so far, 
-24 hours.
+'24 hours'

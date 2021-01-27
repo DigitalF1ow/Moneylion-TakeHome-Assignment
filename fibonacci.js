@@ -2,15 +2,15 @@
 function fibonacci(numTerm)
 {
     //Assigning Array elements for 0 and 1
-    var numArray = [0, 1];
+    var numArray = [1, 1];
     var i = 2;
 
+    //If numTerm is less than 1 or  1, it will skip the for loop sequence
     for ( i; i <= numTerm; i++)
     {
         numArray[i] = numArray[i-1] + numArray[i-2];
     }
-    //Returns the last element in the array, aka the term
+    //Returns the element in the array of the numTerm
     return numArray[numTerm];
 }
-
-console.log(fibonacci(7));
+console.log(fibonacci(1));

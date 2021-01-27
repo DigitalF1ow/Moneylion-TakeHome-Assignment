@@ -13,4 +13,6 @@ function fibonacci(numTerm)
     //Returns the element in the array of the numTerm
     return numArray[numTerm];
 }
-console.log(fibonacci(1));
+
+var fibonacciResult = fibonacci(5);
+console.log(fibonacciResult);

@@ -1,7 +1,7 @@
 //Iterative Method, Better Time Complexity with O(n), executed using NodeJS
 function fibonacci(numTerm)
 {
-    //Assigning Array elements for 0 and 1
+    //Assigning Array elements for the first two terms
     var numArray = [1, 1];
     var i = 2;
 
